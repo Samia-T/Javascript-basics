@@ -19,3 +19,5 @@ const sum1= numbers.reduce(
 );
 
 console.log(sum);
+
+// .forEach(), .map(), .filter(), .reduce() - callback funcs

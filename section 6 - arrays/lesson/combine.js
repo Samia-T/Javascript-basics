@@ -13,7 +13,7 @@ const slice = combined.slice(2, 4);
 //copy of original
 const slice1 = combined.slice();
 
-//spread
+//spread - expands an array into seperate elems
 const combined1 =[...third, 'a', ...second, 'b'];
 //new copy of combined1
 const copy = [...combined1];
@@ -21,3 +21,5 @@ const copy = [...combined1];
 console.log(combined);
 console.log(slice);
 console.log(copy);
+
+//rest - bundles seperate elems into an array

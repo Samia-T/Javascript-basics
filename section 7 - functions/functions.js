@@ -16,3 +16,16 @@ let run = function() {
 const move = run;
 run();
 move();
+
+// callback - func that is passed as an argument? to another func
+// used to handle async ops: reading a file, network reqs, interacting with DBs
+sum(disp, 5, 7)
+
+function sum(callback, x, y) {
+    let res = x + y;
+    callback(res);
+}
+
+function disp(res) {
+    console.log(res);
+}

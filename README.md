@@ -9,6 +9,7 @@ It covers core JavaScript concepts, such as:
 4. Objects
 5. Arrays
 6. Functions
+7. DOM
 
 ## Notes
 This repository is intended for learning and reference purposes and reflects my progress during the course.

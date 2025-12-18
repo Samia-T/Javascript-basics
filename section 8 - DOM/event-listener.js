@@ -1,4 +1,4 @@
-// rewatch lesson - 6, 7, visit w3schools, dave gray
+// visit w3schools - events
 
 const headerElem = document.querySelector('#header');
 
@@ -15,5 +15,10 @@ inputElem.addEventListener('keydown', (evnt) => {
 })
 // keyup, keypress, focus, blur, cut, paste, input, submit
 
+//multiple eventListeners can be added to the same element
+
+// (event, func, useCapture (false by default -> bubbling true))
 h2.addEventListener('click', funct, false);
-h2.removeEventListener('click', funct, false);
+h2.removeEventListener('click', funct, false); // -> must be same as addEventListener
+
+// Event Bubbling (in-out) vs Event Capture (out-in) - set useCapture to true for Event Capture

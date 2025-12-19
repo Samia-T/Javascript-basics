@@ -22,3 +22,10 @@ console.log(person.name);
 //bracket notation
 person['name'] = 'mary'
 console.log(person['name']);
+
+
+const a = 'block-scoped, cannot be reassigned or redecaled in same scope'; // does not attach to global obj
+let b = 'block-scoped, can be reassigned, cannot be redecaled in same scope '; // does not attach to windows
+var c = 'function-scoped, can be redecalred and reassigned'; // avoid, creates properties on global obj
+
+// variables declared without a declaration keyword (const, let or var) are Always Global, even if created inside a function

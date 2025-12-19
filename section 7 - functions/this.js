@@ -48,3 +48,5 @@ playVideo.apply({name: 'Mosh'}, [1, 2]);
 playVideo.bind({name: 'Mosh'})();
 
 playVideo();
+
+// Arrow functions do not have their own this
